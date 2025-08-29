@@ -1,0 +1,5 @@
+{
+  "name": "GradPath AI",
+  "description": "An AI-powered university admissions advisor that analyzes your profile, suggests universities, predicts admission chances, and identifies scholarship opportunities to guide you on your path to graduate school.",
+  "requestFramePermissions": []
+}
