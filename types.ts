@@ -19,8 +19,10 @@ export interface University {
   reasoning: string;
 }
 
+export type MatchCategory = 'Ambitious' | 'Target' | 'Safe';
+
 export interface AdmissionAnalysis {
-  probability: number;
+  matchCategory: MatchCategory;
   justification: string;
   strengths: string[];
   weaknesses: string[];
